@@ -2,11 +2,13 @@
 
 # Learning Center + Aquarium
 
-A Wave app that, in essence, combines Aquarium and the H2O.ai Learning Center. As of now, users trying to learn Driverless AI will be required to have a Learning Center account to access Driverless AI tutorials. The Driverless AI tutorial as a pre-requisite requires users to obtain an Aquarium account to obtain access to Driverless AI lab instances to complete a tutorial. Therefore, this quickly becomes a problem because it forces users to have two accounts and makes the learning process painful and lengthy.
+Developing a Wave app that, in essence, combines Aquarium and the H2O.ai Learning Center. As of now, users trying to learn Driverless AI will be required to have a Learning Center account to access Driverless AI tutorials. The Driverless AI tutorial as a prerequisite requires users to obtain an Aquarium account to obtain access to Driverless AI lab instances to complete a tutorial. Therefore, this quickly becomes a problem because it forces users to have two accounts and makes the learning process painful and lengthy. 
 
-This Wave app will only require users to create an Aquarium account through the wave app, and when users access it, they will be presented with all Driverless AI tutorials and the ability to start any Aquarium lab all in one single centralized platform.
+This Wave app will only require users to create an Aquarium account through the wave app, 
+and when users access it, they will be presented with all Driverless AI tutorials and the ability to start any Aquarium lab all in one single centralized platform.
 
-In contrast to the Learning Center, where only a particular version of Driverless AI tutorials is visible, this wave app will give users access to all past versions of Driverless AI tutorials and Aquarium lab instances(e.g., Turorial 1A 1.9.0 with Aquarium lab 1.9.0). 
+In contrast to the Learning Center, where only a particular version of Driverless AI tutorials is visible, this wave app will give users access to all past versions of Driverless AI tutorials and Aquarium lab instances(e.g., Tutorial 1A 1.9.0 with Aquarium lab 1.9.0).
+
 
 # Views:
 
