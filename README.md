@@ -1,3 +1,5 @@
+# NOTE: STILL UNDER REVIEW AND DEVELOPMENT
+
 # Learning Center + Aquarium
 
 A Wave app that, in essence, combines Aquarium and the H2O.ai Learning Center. As of now, users trying to learn Driverless AI will be required to have a Learning Center account to access Driverless AI tutorials. The Driverless AI tutorial as a pre-requisite requires users to obtain an Aquarium account to obtain access to Driverless AI lab instances to complete a tutorial. Therefore, this quickly becomes a problem because it forces users to have two accounts and makes the learning process painful and lengthy.
