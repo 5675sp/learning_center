@@ -1,8 +1,7 @@
 import requests
 from h2o_wave import Q, ui
 
-session_holder = None
-valid = None
+
 def start_session(user_email: str, user_password: str):
 
     global session_holder
@@ -17,7 +16,6 @@ def start_session(user_email: str, user_password: str):
     }
 
     responseHolder = session_holder.post(url_login, data=data, verify=False)
-
     responseJson = responseHolder.json()
     
     global valid
@@ -27,8 +25,10 @@ def start_session(user_email: str, user_password: str):
 
     return session_holder
 
+
 def get_session():
     return session_holder
+
 
 def get_valid():
     return valid 
@@ -39,7 +39,7 @@ def top_bar():
     responseJson = responseHolder.json()
     return responseJson
     
-global space_one
+
 space_one = f'''
 </br></br>
 </br></br>
@@ -55,7 +55,6 @@ space_one = f'''
 </br></br></br>
 '''
 
-global space_two
 space_two = f'''
 </br></br>
 </br></br>
@@ -90,6 +89,13 @@ async def login(q: Q):
 
     await q.page.save()
 
+
+def logout_method():
+
+    url_logout = "https://aquarium.h2o.ai/api/logout"
+    session_holder.get(url_logout, verify=False)
+    print('user has been logout')
+
 async def login_failed(q: Q):
 
     q.page['login'] = ui.form_card(box= '1 1 3 -1', items=[
@@ -114,7 +120,6 @@ async def login_failed(q: Q):
 
     await q.page.save()
 
-global space_three
 space_three = f'''
 </br></br>
 </br></br>
@@ -133,7 +138,7 @@ async def login_options(q: Q):
 
     q.page['logo'] = ui.form_card(box= '4 1 -1 -1 ', items=[
         ui.text(space_one),
-        ui.separator('Aquarium: H2O.ai'),
+        ui.separator('Learning Center + Aquarium'),
     ])
 
     q.page['login'] = ui.form_card(box= '1 1 3 -1', items=[
@@ -151,8 +156,6 @@ async def login_options(q: Q):
     ])
     await q.page.save()
   
-
-global space_four
 space_four = f'''
 </br></br>
 </br></br>
