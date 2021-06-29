@@ -77,7 +77,7 @@ Finally, point your web browser to http://localhost:10101/. You should see an em
 
 Rename your `learning_center-master` (download) to `learning center`. 
 
-Move it to a convenient location, say $HOME/learning_center/. First, create a folder name learning_center in your home directory. Rigth after, in a new terminal: Create a virtual environment and install the Learning Center's dependencies.
+Move it to a convenient location, say $HOME/learning_center/. First, create a folder name learning_center in your home directory. Right after, in a new terminal: Create a virtual environment and install the Learning Center's dependencies.
 
 ```
 cd $HOME/learning_center
